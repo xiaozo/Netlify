@@ -21,7 +21,7 @@
         >GitHub</a>
       </div>
       <img src="~/assets/appstore.png" alt="">
-      <nuxt-link to="/users/two/5">首 页</nuxt-link>
+      <nuxt-link to="/users/two/5">首 页1</nuxt-link>
     </div>
   </section>
 </template>
