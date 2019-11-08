@@ -1,0 +1,2 @@
+exports.ids=[5],exports.modules={36:function(e,t,r){"use strict";r.r(t);var n={},l=r(1),component=Object(l.a)(n,function(){var e=this.$createElement;return(this._self._c||e)("div",[this._ssrNode("<p>users-two-index</p>")])},[],!1,null,null,"418d00f8");t.default=component.exports}};
+//# sourceMappingURL=8972f9fbca7065ae567c.js.map

@@ -1,0 +1,2 @@
+exports.ids=[3],exports.modules={35:function(t,e,r){"use strict";r.r(e);var n={},o=r(1),component=Object(o.a)(n,function(){var t=this.$createElement,e=this._self._c||t;return e("div",[this._ssrNode("<p>users-two</p> "),e("nuxt-link",{attrs:{to:"/users/two"}},[this._v("首 页")]),this._ssrNode(" "),e("nuxt-link",{attrs:{to:"/inddx"}},[this._v("首 页")]),this._ssrNode(" "),e("nuxt-child")],2)},[],!1,null,null,"8a4fe47e");e.default=component.exports}};
+//# sourceMappingURL=275d1e2be69731bc59e1.js.map

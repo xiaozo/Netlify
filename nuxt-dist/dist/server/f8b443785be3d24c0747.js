@@ -1,0 +1,2 @@
+exports.ids=[6],exports.modules={37:function(t,e,r){"use strict";r.r(e);var o={data:()=>({scrollStatus:!0,entries:[]}),asyncData:async({store:t,params:e})=>(console.log(e),{})},l=r(1),component=Object(l.a)(o,function(){var t=this.$createElement;return(this._self._c||t)("div",[this._ssrNode("<p>users-two-three</p>")])},[],!1,null,null,"20168248");e.default=component.exports}};
+//# sourceMappingURL=f8b443785be3d24c0747.js.map
