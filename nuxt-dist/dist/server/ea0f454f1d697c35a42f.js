@@ -1,2 +1,0 @@
-exports.ids=[4],exports.modules={38:function(t,e,n){"use strict";n.r(e);var r={data:()=>({id:0}),asyncData:async({app:t,store:e,params:n,error:r})=>(t.myInjectedFunction("ctx!"),{id:n.id}),mounted(){this.$myInjectedFunction("test")}},c=n(1),component=Object(c.a)(r,function(){var t=this.$createElement;return(this._self._c||t)("div",[this._ssrNode("<p>"+this._ssrEscape("\n     users-two-id\n     "+this._s(this.id)+"\n   ")+"</p>")])},[],!1,null,null,"392cda28");e.default=component.exports}};
-//# sourceMappingURL=ea0f454f1d697c35a42f.js.map

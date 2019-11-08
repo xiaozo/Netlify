@@ -1,1 +1,0 @@
-{"version":3,"file":"8972f9fbca7065ae567c.js","sources":["webpack:///./pages/users/two/index.vue"],"sourcesContent":["var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode(\"<p>users-two-index</p>\")])}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"],"mappings":"AAAA","sourceRoot":""}
