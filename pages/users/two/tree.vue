@@ -1,6 +1,9 @@
 <template>
 <div>
-   <p>users-two-three</p>
+   <p>users-two</p>
+   <nuxt-link to="/users/two/tree/6" >tree首 页</nuxt-link>
+   <nuxt-link to="/users/two/tree/7" >tree2首 页</nuxt-link>
+    <nuxt-child/>
   </div>
   
 </template>
