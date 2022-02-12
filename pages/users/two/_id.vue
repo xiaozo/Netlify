@@ -33,9 +33,12 @@ export default {
   
 // },
   async asyncData ({ app,store, params ,error}) {
-      console.log(params);
+      
+      if (params.id == "undefined") {
+          console.log(params);
+      }
     return {
-      id:params.id
+      id:0 
     }
   },
    mounted(){

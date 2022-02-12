@@ -35,7 +35,7 @@ export default {
   async asyncData ({ app,store, params ,error}) {
       console.log(params);
     return {
-      id:params.id
+      id:params.id == undefined ? 0 : params.id 
     }
   },
    mounted(){

@@ -27,6 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
+    // {src:'element-ui/lib/theme-chalk/index.css'}
   ],
 
   /*
@@ -56,6 +57,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    extractCSS: { allChunks: true },
 
    loaders:[
     {
