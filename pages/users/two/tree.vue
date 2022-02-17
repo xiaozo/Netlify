@@ -2,7 +2,7 @@
 <div>
    <p>users-two</p>
    <nuxt-link to="/users/two/tree/6" >tree首 页</nuxt-link>
-   <nuxt-link to="/users/two/tree/7" >tree2首 页</nuxt-link>
+   <nuxt-link to="/users/two/tree/four" >four首 页</nuxt-link>
     <nuxt-child/>
   </div>
   
@@ -11,6 +11,7 @@
 <script>
 
 export default {
+  
    data () {
     return {
       scrollStatus: true,

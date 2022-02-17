@@ -30,6 +30,11 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
+  // asyncData({ redirect }) { redirect('/users/two/6')
+  // },
+   created() {
+  this.$router.push('/users/two/6')
+ },
   components: {
     Logo
   }

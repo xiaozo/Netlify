@@ -1,5 +1,4 @@
 import pkg from './package'
-
 export default {
   mode: 'universal',
   buildDir: 'nuxt-dist',
@@ -27,7 +26,8 @@ export default {
   ** Global CSS
   */
   css: [
-    // {src:'element-ui/lib/theme-chalk/index.css'}
+    '@/assets/main.css',
+    {src:'element-ui/lib/theme-chalk/index.css'}
   ],
 
   /*
@@ -44,8 +44,19 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/proxy'
   ],
-
+  proxy: [[
+    function (pathname, req) {
+    return (req.method === 'GET' && pathname === "/");
+   },
+    {
+      target: 'http://localhost:3000',
+      pathRewrite: {'^/' : '/users/two/tree/6'}
+    }
+  ]],
+  serverMiddleware: [
+  ],
   router: {
     middleware: 'auth'
   },
@@ -58,6 +69,7 @@ export default {
     ** You can extend webpack config here
     */
     extractCSS: { allChunks: true },
+    // publicPath: 'http://localhost:8080/nuxt',
 
    loaders:[
     {

@@ -10,6 +10,20 @@
 
 <script>
 export default {
-  
+   head() {
+    return {
+        meta: [
+          {
+            hid: 'description-two',
+            name: 'description-two',
+            content: '111My custom description-two'
+          }
+        ]
+      }
+  },
+    fetch({ store, params }) {
+      console.log("two-fetch")
+      
+    }
 }
 </script>
