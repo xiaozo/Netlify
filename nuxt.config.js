@@ -44,7 +44,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/proxy'
+    // '@nuxtjs/proxy'
   ],
   proxy: [[
     function (pathname, req) {
