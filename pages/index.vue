@@ -21,8 +21,10 @@
         >GitHub</a>
       </div>
       <img src="~/assets/appstore.png" alt="">
-      <nuxt-link to="/users/two/5">首 页1</nuxt-link>
+      <nuxt-link to="/">首 页1</nuxt-link>
+       <nuxt-link to="/users">首 页</nuxt-link>
     </div>
+     <nuxt />
   </section>
 </template>
 
@@ -30,11 +32,6 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
-  // asyncData({ redirect }) { redirect('/users/two/6')
-  // },
-//    created() {
-//   this.$router.push('/users/two/6')
-//  },
   components: {
     Logo
   }

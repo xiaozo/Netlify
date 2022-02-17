@@ -46,15 +46,15 @@ export default {
   modules: [
     // '@nuxtjs/proxy'
   ],
-  proxy: [[
-    function (pathname, req) {
-    return (req.method === 'GET' && pathname === "/");
-   },
-    {
-      target: 'http://localhost:3000',
-      pathRewrite: {'^/' : '/users/two/tree/6'}
-    }
-  ]],
+  // proxy: [[
+  //   function (pathname, req) {
+  //   return (req.method === 'GET' && pathname === "/");
+  //  },
+  //   {
+  //     target: 'http://localhost:3000',
+  //     pathRewrite: {'/' : '/users/two/tree/6'}
+  //   }
+  // ]],
   serverMiddleware: [
   ],
   router: {
