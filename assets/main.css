@@ -5,3 +5,22 @@
     opacity: 0;
 }
 
+.nuxt-link-exact-active,.nuxt-link-active{
+    color:#007fff
+}
+a {
+    color: #71777c;
+}
+
+
+/* .hidden ~ a.nuxt-link-active:not(.nuxt-link-exact-active){
+    color: #71777c !important;
+} */
+
+/* .route_container > a:not(.nuxt-link-exact-active) {
+    color: #71777c !important;
+} */
+
+/* a.nuxt-link-exact-active:nth-child(2n){
+    color: #71777c !important;
+} */
