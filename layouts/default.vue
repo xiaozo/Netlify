@@ -4,6 +4,9 @@
   </div>
 </template>
 <script>
+
+import { removeClass } from '@/utils/dom.js'
+
 export default {
 
 watch: {
@@ -20,22 +23,16 @@ watch: {
   },
   methods: {
     updateRouteActive() {
-      // var els = $("a.nuxt-link-exact-active").siblings("a");
-      // for (var i = 0; i < els.length;i++){
-      //   $(els[i]).removeClass("nuxt-link-active")
-      // }
       var els = document.querySelectorAll('a.nuxt-link-exact-active')
       for (var i = 0; i < els.length;i++) {
         var item = els[i];
          var p = item.parentNode.children;
          for (var j = 0, pl = p.length; j < pl; j++) {
            if (p[j] !== item) {
-             p[j].classList.remove("nuxt-link-active")
-            //  
+            removeClass(p[j],"nuxt-link-active")
            }
          }
-      }
-      
+      } 
     }
   }
 }
