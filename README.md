@@ -16,3 +16,11 @@ or
 docker run  -it --name nuxt -v /Users/deerclass/Desktop/temp/gz:/nuxt -p 3000:3000 -d nuxt:v1  //挂载
 
 docker exec -it nuxt /bin/bash -c 'pm2 ps'
+
+生存环境文件夹
+Dockerfile
+ecosystem.config.js
+nuxt-dist
+nuxt.config.js
+package-lock.json
+package.json
