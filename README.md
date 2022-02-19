@@ -17,7 +17,7 @@ docker run  -it --name nuxt -v /Users/deerclass/Desktop/temp/gz:/nuxt -p 3000:30
 
 docker exec -it nuxt /bin/bash -c 'pm2 ps'
 
-生存环境文件夹
+生存环境文件夹项只需要
 Dockerfile
 ecosystem.config.js
 nuxt-dist
