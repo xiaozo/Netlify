@@ -2,7 +2,7 @@
 <div>
    <p>users-two</p>
    <nuxt-link to="/" >首 页</nuxt-link>
-   <nuxt-link to="/welcom" >首 页</nuxt-link>
+   <nuxt-link to="/welcom/5" >首 页</nuxt-link>
    <nuxt-child/>
   </div>
   

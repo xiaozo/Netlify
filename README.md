@@ -6,8 +6,8 @@
 
 使用 pm2 init 產生 ecosystem.config.js 檔案
 
-发布顺序
-npm install
-npm run build
-npm install nuxt-start  --no-save  ///分开安装不然执行npm run build会报错
-pm2 start --env prod
+//docker 
+ecosystem.config.js  // cwd: '/nuxt/',  ///docker解掉注释
+docker build -t nuxt:v1 .
+docker run --name nuxt -p 3000:3000 -d nuxt:v1
+docker exec -it nuxt /bin/bash -c 'pm2 ps'

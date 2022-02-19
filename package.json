@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "prodstart": "npm install&& npm run build && npm install nuxt-start  --no-save && pm2 start --env prod"
+    "prodstart": "npm install && npm run build && npm install nuxt-start  --no-save && pm2 start --env prod --no-daemon"
   },
   "dependencies": {
     "@nuxtjs/proxy": "^2.1.0",
