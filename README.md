@@ -8,6 +8,11 @@
 
 //docker 
 ecosystem.config.js  // cwd: '/nuxt/',  ///docker解掉注释
+
 docker build -t nuxt:v1 .
+
 docker run --name nuxt -p 3000:3000 -d nuxt:v1
+or
+docker run  -it --name nuxt -v /Users/deerclass/Desktop/temp/gz:/nuxt -p 3000:3000 -d nuxt:v1  //挂载
+
 docker exec -it nuxt /bin/bash -c 'pm2 ps'
