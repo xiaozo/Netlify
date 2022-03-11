@@ -36,8 +36,6 @@ export default {
     Logo
   }
 }
-
-console.log("ccc");
 </script>
 
 <style>
