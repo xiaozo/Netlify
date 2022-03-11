@@ -37,7 +37,7 @@ export default {
   }
 }
 
-console.log("ccc");
+console.log("ccc
 
 </script>
 
